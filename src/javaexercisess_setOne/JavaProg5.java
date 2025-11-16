@@ -7,8 +7,7 @@ public class JavaProg5 {
 	/*
 	 * Write a Java Program to compute body mass index (BMI). Test Data
 	 * 
-	 * Input weight in pounds : 452 I
-	 * Input height in inches : 72
+	 * Input weight in pounds : 452 I Input height in inches : 72
 	 * 
 	 * Expected Output: Body Mass Index is 61.30159143458721
 	 * 
@@ -27,7 +26,7 @@ public class JavaProg5 {
 		System.out.print("Input height in pounds : ");
 		int height = sc.nextInt();
 
-		double BMI = (weight * 703.0) / (height*height);
+		double BMI = (weight * 703.0) / (height * height);
 
 		System.out.println("Body Mass Index is " + BMI);
 
