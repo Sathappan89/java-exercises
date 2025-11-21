@@ -7,8 +7,8 @@ public class PeakElement {
 		int peakElement[] = { 1, 4, 7, 10, 4, 5, 2, 11, 3 };
 
 		int len = peakElement.length; // 9
-		int li = peakElement[0]; // 1
-		int hi = peakElement[len - 1]; // 3
+//		int li = peakElement[0]; // 1
+//		int hi = peakElement[len - 1]; // 3
 
 		int globalPeak = peakElement[0];
 
@@ -25,6 +25,19 @@ public class PeakElement {
 		}
 
 		System.out.println(globalPeak);
+		
+		
+//		
+//		
+//		int max=peakElement[0];
+//		
+//		for(int j=0;j<peakElement.length;j++) {
+//			if(peakElement[j]>max) {
+//				max=peakElement[j];
+//			}
+//		}
+//		System.out.println(max);
+		
 	}
 
 }
