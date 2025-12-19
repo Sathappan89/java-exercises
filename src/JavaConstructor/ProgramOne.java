@@ -17,8 +17,8 @@ public class ProgramOne {
 	public static void main(String[] args) {
 
 		ProgramOne c = new ProgramOne();
-		c.catAge = 10;
-		c.catName = "sathappan";
+		c.catAge = 0;
+		c.catName = "unknown";
 		System.out.println(c.catAge + " " + c.catName);
 
 	}
