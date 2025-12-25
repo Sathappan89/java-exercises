@@ -15,19 +15,14 @@ public class P6_ReverseAnumber {
 //
 //		int q = number / 10;
 //		System.out.println(q); // Quotient
-		
-		
+
 		int reverseNumber = 0;
-		
-		while(number>0) {
-			
-			reverseNumber = number%10;
-			
+
+		while (number > 0) {
+			reverseNumber = number % 10;
+
 			System.out.print(reverseNumber + "");
-			number=number/10;
-			
-			
-			
+			number = number / 10;
 		}
 
 	}
