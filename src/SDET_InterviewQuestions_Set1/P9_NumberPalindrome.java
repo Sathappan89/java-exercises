@@ -12,7 +12,7 @@ public class P9_NumberPalindrome {
 		int number = scanner.nextInt();
 		int originalNumber = number;
 
-		boolean isPalindrome = true;
+		
 
 		int rev =0;
 
