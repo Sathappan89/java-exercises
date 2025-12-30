@@ -1,7 +1,7 @@
 package SDET_InterviewQuestions_Set2;
 
 import java.util.Scanner;
-
+/*Find the largest and smallest number in a static array.*/
 public class P1_LargestandSmallest {
 
     public static void main(String[] args) {

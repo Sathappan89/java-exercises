@@ -1,7 +1,7 @@
 package SDET_InterviewQuestions_Set2;
 
 import java.util.Scanner;
-
+/*Reverse a static array without using a second array*/
 public class P2_ReverseArrayWithoutSecondarray {
 
 	public static void main(String[] args) {
