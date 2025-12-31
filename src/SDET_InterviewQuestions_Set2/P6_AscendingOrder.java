@@ -4,21 +4,21 @@ public class P6_AscendingOrder {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 7,6,4,3};
+		int arr[] = { 7, 6, 4, 3 };
 		int len = arr.length;
-		System.out.println("Enter the length of the array : " + len); //4
+		System.out.println("Enter the length of the array : " + len); // 4
 
 		System.out.println("Original Array:");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
 
-		for(int j=len-1;j>=1;j--) {
-			for(int i=0;i<j;i++) {
-				if(arr[i]>arr[i+1]) {
+		for (int j = len - 1; j >= 1; j--) {
+			for (int i = 0; i < j; i++) {
+				if (arr[i] > arr[i + 1]) {
 					int temp = arr[i];
-					arr[i]=arr[i+1];
-					arr[i+1]=temp;
+					arr[i] = arr[i + 1];
+					arr[i + 1] = temp;
 				}
 			}
 		}
@@ -27,7 +27,7 @@ public class P6_AscendingOrder {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
-		
+
 	}
 
 }
