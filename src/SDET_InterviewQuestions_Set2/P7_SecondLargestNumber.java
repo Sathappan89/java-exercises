@@ -23,6 +23,6 @@ public class P7_SecondLargestNumber {
 			}
 
 		}
-		System.out.println("First Largest Array : " + secondLargest);
+		System.out.println("Second Largest Array : " + secondLargest);
 	}
 }
