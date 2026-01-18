@@ -1,4 +1,4 @@
-package SDET_InterviewQuestions_Set1;
+	package SDET_InterviewQuestions_Set1;
 
 public class primeNumberProgram {
 

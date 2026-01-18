@@ -12,10 +12,10 @@ public class P7_ArmstrongNumber {
 		System.out.println("Enter the number ");
 		int number = scanner.nextInt();
 
-		int original = number; /// store original number
+		int original = number; // store original number
 
 		int q;
-		int result = 0; // // sum of cubes
+		int result = 0;  // sum of cubes
 
 		while (number > 0) {
 			q = number % 10; // extract last digit

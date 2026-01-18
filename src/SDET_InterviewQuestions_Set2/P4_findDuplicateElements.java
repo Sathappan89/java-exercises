@@ -27,7 +27,7 @@ public class P4_findDuplicateElements {
 
 		System.out.println(" ");
 
-		int duplicateElement = arr[0];
+		//int duplicateElement = arr[0];
 		int count = 0;
 
 		for (int i = 0; i < len; i++) {
