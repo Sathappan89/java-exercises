@@ -6,7 +6,7 @@ public class sdet8 {
 		int number = 12543;
 		int digitCount = 0;
 
-		int originalNumber = number;
+		
 
 		while (number > 0) {
 			int rem=number%10;
