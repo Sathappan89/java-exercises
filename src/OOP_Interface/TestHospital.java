@@ -20,7 +20,9 @@ public class TestHospital {
 		fh.emergencyServices(); // Common -- Method
 
 		fh.medicalTraining(); // Individual Method
-
+		
+		fh.medicalRD(); //from class extend
+				
 		System.out.println("-------------------------------------------");
 
 		/* Interface object are not allowed */
@@ -37,7 +39,8 @@ public class TestHospital {
 		us.orthoServices();
 
 		us.emergencyServices();
-
+		USMedical.billing();
+		
 		System.out.println("---------------------TOP CASTING = UK Medical ----------------------");
 
 		UKMedical uk = new FortisHospital();
@@ -56,6 +59,18 @@ public class TestHospital {
 		// Multiple Inheritance is allowed.
 		// Class can implements n number of interfaces 
 
+		System.out.println("---------------------Interface to Interface Casting ----------------------");
+		
+		USMedical usa = new FortisHospital();
+		UKMedical unk=(UKMedical)(usa);
+		//(UKMedical)(usa); == UK
+		// unk = Referred by unk
+		
+		unk.oncologyServices();
+		unk.pediaServices();
+		usa.dentalServices();
+		usa.physioServices();
+	
 	}
 
 }

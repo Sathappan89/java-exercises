@@ -1,7 +1,7 @@
 package OOP_Interface;
 
-public class FortisHospital implements USMedical, UKMedical, IndianMedical {
-
+public class FortisHospital extends Hospital implements USMedical, UKMedical, IndianMedical{
+ 
 	// US Medical
 	@Override
 	public void dentalServices() {
@@ -61,6 +61,17 @@ public class FortisHospital implements USMedical, UKMedical, IndianMedical {
 
 	public void medicalTraining() {
 		System.out.println("Individual Method");
+	}
+
+	@Override
+	public void covidVaccination() {
+		System.out.println("Common GrandParend Interface Method");
+		
+	}
+	
+	@Override
+	public void medicalPolicy() {
+		System.out.println("USM---medical policy");
 	}
 
 }

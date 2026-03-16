@@ -1,6 +1,6 @@
 package OOP_Interface;
 
-public interface USMedical {
+public interface USMedical extends WHO {
 
 	// abstract method:
 	// no method body, only method declaration
@@ -16,5 +16,17 @@ public interface USMedical {
 	public void emergencyServices();
 	
 	public void orthoServices();
+	
+	//1.after JDK1.8, two major changes:
+	//can not overridden
+	public  static void  billing() {
+		System.out.println("US Medical");
+	}
+	
+	//2. default method with body: not a static
+	//can be overridden
+	default void medicalPolicy() {
+		System.out.println("USM---medical policy");
+	}
 	
 }
