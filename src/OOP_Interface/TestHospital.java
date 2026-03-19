@@ -23,6 +23,11 @@ public class TestHospital {
 		
 		fh.medicalRD(); //from class extend
 				
+		
+		System.out.println(USMedical.min_fee);
+		System.out.println(FortisHospital.min_fee);
+		
+		
 		System.out.println("-------------------------------------------");
 
 		/* Interface object are not allowed */

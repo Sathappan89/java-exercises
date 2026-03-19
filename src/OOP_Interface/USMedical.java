@@ -6,6 +6,11 @@ public interface USMedical extends WHO {
 	// no method body, only method declaration
 	// only method prototype
 	// can not create the object of the interface
+	
+	
+	//interface vars are by default static and final in nature
+	int min_fee=10;
+	
 
 	public void dentalServices();
 

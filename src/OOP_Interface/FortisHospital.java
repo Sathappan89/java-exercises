@@ -2,6 +2,8 @@ package OOP_Interface;
 
 public class FortisHospital extends Hospital implements USMedical, UKMedical, IndianMedical{
  
+	static final int min_fee =100;
+	
 	// US Medical
 	@Override
 	public void dentalServices() {
