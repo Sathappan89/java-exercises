@@ -17,6 +17,7 @@ public class Classroom {
 		String st[]= {"SAT","HAP","PAN"};
 		Classroom cr=new Classroom("CSE A",st);
 		System.out.println(cr.className + " -- " + Arrays.toString(st));
+
 	}
 
 }
