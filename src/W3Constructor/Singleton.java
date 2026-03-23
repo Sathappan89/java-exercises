@@ -1,7 +1,8 @@
 package W3Constructor;
 
 public class Singleton {
-/*In a Singleton Pattern, the constructor is made private to prevent external instantiation, ensuring that only one instance of the class can ever be created.*/
+/*In a Singleton Pattern, the constructor is made private to prevent external instantiation, 
+ * ensuring that only one instance of the class can ever be created.*/
 	private static Singleton instance;
 
 	private Singleton() {
