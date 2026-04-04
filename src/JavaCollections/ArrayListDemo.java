@@ -80,11 +80,9 @@ public class ArrayListDemo {
 		mylist2.add("welcome");
 	
 		mylist.removeAll(mylist2);
-		
 		System.out.println("Remove elements randomly " + mylist);
 		
-		System.out.println("----------Remove all the elements  ------------");
-		
+		System.out.println("----------Remove all the elements  ------------");		
 		mylist.clear();
 		System.out.println("Is arraylist empty ? : " +mylist.isEmpty());
 	}
