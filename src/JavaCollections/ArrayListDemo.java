@@ -50,6 +50,8 @@ public class ArrayListDemo {
 		// Access specific element from arraylist
 		mylist.get(3);
 		System.out.println(mylist.get(3)); // Here 2 is index
+		
+		
 		System.out.println("-----------for loop with index-----------");
 		// Reading all the elements from arraylist
 		// 1. Reading all the elements in the arraylist - Using normal for loop
