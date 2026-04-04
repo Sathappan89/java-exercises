@@ -32,6 +32,8 @@ public class HashSetDemo {
 		myset.add(null);
 		myset.add(null);
 
+		System.out.println("size of the hash set " +myset.size());
+		
 		// Printing HashSet
 		System.out.println(myset); // [null, A, 100, 10.5, welcome, true]
 
