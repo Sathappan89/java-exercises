@@ -1,6 +1,8 @@
 package SDET_InterviewQuestions_Set3;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.*;
 
 public class PickaSpecificWord {
 
@@ -17,6 +19,13 @@ public class PickaSpecificWord {
 				System.out.println("learning");
 			}
 		}
+		System.out.println("---------");
+		
+		 for (Map.Entry<Integer,String> y : map.entrySet()){
+			 if (y.getValue().equals("Java")){
+	            System.out.println(y.getKey() + " " + y.getValue());
+	            }
+			}
 
 		return map;
 
