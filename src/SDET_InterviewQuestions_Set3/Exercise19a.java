@@ -1,6 +1,8 @@
 package SDET_InterviewQuestions_Set3;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 public class Exercise19a {
 
@@ -19,6 +21,17 @@ public class Exercise19a {
 			}
 
 		}
+
+		for (Entry<Character, Integer> x : map.entrySet()) {
+			System.out.println(x.getKey() + " = " + x.getValue());
+		}
+
+		System.out.println("------------------------------------------------");
+		
+		Iterator<Entry<Character,Integer>>  y =map.entrySet().iterator();
+		while(y.hasNext()) {
+			System.out.println(y.next());
+		}
 		return map;
 	}
 
@@ -26,6 +39,7 @@ public class Exercise19a {
 		String str = "Sathappan";
 
 		HashMap<Character, Integer> result = countCharFrequency(str);
+		System.out.println("----------------------Main--------------------------");
 		System.out.println(result);
 		System.out.println(result.entrySet());
 		System.out.println(result.keySet());
