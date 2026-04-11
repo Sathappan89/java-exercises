@@ -4,7 +4,7 @@ public class ExerciseSix {
 	/* Count vowels and consonants */
 	/* q e i o u */
 	public static void main(String[] args) {
-		String str = "I live to learn Java Strings";
+		String str = "I live to learn Java strings";
 
         int countVowels = 0;
         int countConsonants = 0;
