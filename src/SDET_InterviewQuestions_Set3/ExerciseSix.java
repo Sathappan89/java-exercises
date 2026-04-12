@@ -9,7 +9,7 @@ public class ExerciseSix {
         int countVowels = 0;
         int countConsonants = 0;
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) { 
             char ch = Character.toLowerCase(str.charAt(i));
 
             if (ch >= 'a' && ch <= 'z') {        // Only letters
