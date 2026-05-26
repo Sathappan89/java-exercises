@@ -1,4 +1,5 @@
 package SDET_InterviewQuestions_Set3;
+
 /*Reverse a String*/
 public class ExerciseOne {
 	public static String Reverse(String str) {
@@ -21,7 +22,7 @@ public class ExerciseOne {
 	public static void main(String[] args) {
 		String str = "Java";
 		String result = ExerciseOne.Reverse(str);
-		System.out.println(result); //avaJ
+		System.out.println(result); // avaJ
 	}
 
 }
